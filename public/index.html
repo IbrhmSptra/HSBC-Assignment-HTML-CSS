@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <title>Assignment-01 / HTML & CSS</title>
+</head>
+
+<body>
+    <div class="h-screen md:flex">
+        <div class="hidden relative md:block md:w-3/5 xl:w-fit xl:flex-1">
+            <img class="h-full w-full object-cover" src="../public/assets/img/bglogin.webp" alt="background-login">
+            <p class="text-xs text-white font-roboto absolute left-10 bottom-10">Photo by <span
+                    class="underline">Alexandr
+                    Popadin</span></p>
+        </div>
+
+
+        <div class="relative h-full px-4 pt-9 sm:max-w-md sm:mx-auto md:px-12">
+            <img class="hidden w-[12.5rem] mb-12 md:block" src="../public/assets/img/logoweb.png" alt="Logo">
+            <h1 class="font-semibold text-Heading text-xl font-popins">Nice to see you again</h1>
+            <form class="mt-6" action="#" method="post">
+                <input
+                    class="py-3.5 px-4 bg-input text-Black500 text-sm font-roboto w-full border border-stroke rounded-sm"
+                    type="email" placeholder="Email or phone number">
+                <input
+                    class="py-3.5 px-4 bg-input text-Black500 text-sm font-roboto w-full mt-3 border border-stroke rounded-sm"
+                    type="password" placeholder="Enter Password">
+                <a class="block cursor-pointer text-end font-arial text-Primary text-xs mt-3 md:text-Blue">Forgot
+                    password?</a>
+                <button class="mt-6 py-2.5 w-full bg-Primary text-white font-roboto font-bold rounded-md"
+                    type="submit">Sign
+                    in</button>
+            </form>
+            <a class="flex bg-Black300 text-white font-arial text-xs py-2.5 justify-center items-center rounded-md gap-2 mt-12 md:mt-16"
+                href="">
+                <div><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                        <path
+                            d="M19.869 10.3474C19.8698 9.666 19.8118 8.98576 19.6956 8.31419H10.1998V12.1654H15.6385C15.5272 12.7805 15.2917 13.3668 14.946 13.8891C14.6004 14.4113 14.1519 14.8587 13.6275 15.2041V17.704H16.8734C18.7739 15.9638 19.869 13.3903 19.869 10.3474Z"
+                            fill="#4285F4" />
+                        <path
+                            d="M10.1997 20.1194C12.917 20.1194 15.2049 19.2333 16.8734 17.7056L13.6274 15.2057C12.724 15.814 11.5605 16.1613 10.1997 16.1613C7.57334 16.1613 5.34414 14.403 4.54699 12.0337H1.20319V14.6099C2.04126 16.2661 3.32635 17.6583 4.915 18.6312C6.50364 19.6041 8.3333 20.1193 10.1997 20.1194Z"
+                            fill="#34A853" />
+                        <path
+                            d="M4.54698 12.0333C4.12556 10.7918 4.12556 9.4473 4.54698 8.20576V5.6295H1.20317C0.498154 7.0227 0.130981 8.56033 0.130981 10.1196C0.130981 11.6788 0.498154 13.2164 1.20317 14.6096L4.54698 12.0333Z"
+                            fill="#FBBC04" />
+                        <path
+                            d="M10.1997 4.07818C11.6357 4.05488 13.0232 4.59367 14.0624 5.5781L16.9363 2.72408C15.1139 1.02427 12.6997 0.0910436 10.1997 0.120041C8.3333 0.120125 6.50364 0.635369 4.915 1.60825C3.32635 2.58113 2.04126 3.97335 1.20319 5.62949L4.54699 8.20575C5.34414 5.83642 7.57334 4.07818 10.1997 4.07818Z"
+                            fill="#EA4335" />
+                    </svg></div>
+                <p>Or sign in with Google</p>
+            </a>
+            <p class="text-center text-Heading text-xs font-arial mt-6">Dont have an account? <a class="text-Primary"
+                    href="#">Sign up now</a></p>
+            <img class="max-w-[202px] mx-auto mt-14 md:hidden" src="../public/assets/img/logoweb.png" alt="Logo">
+            <p class="text-Paragraph text-xs font-roboto text-center absolute bottom-10 left-0 right-0">© Perfect Login
+                2021</p>
+        </div>
+    </div>
+</body>
+
+</html>
